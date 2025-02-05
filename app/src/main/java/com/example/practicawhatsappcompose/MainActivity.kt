@@ -68,7 +68,7 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             Box(modifier = Modifier.fillMaxSize()) {
-                Column (modifier = Modifier.height(700.dp)){
+                Column {
                     TopAppBar()
                     ListChats()
                 }
@@ -94,7 +94,7 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun Preview() {
     Box(modifier = Modifier.fillMaxSize()) {
-        Column (modifier = Modifier.height(700.dp)){
+        Column {
             TopAppBar()
             ListChats()
         }
