@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">PracticaWhatsAppCompose</string>
+    <string name="image_chat_description">Imagen del chate en cuestión</string>
+    <string name="fab_button">Floating action button</string>
 </resources>
